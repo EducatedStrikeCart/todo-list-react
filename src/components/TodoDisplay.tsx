@@ -84,10 +84,18 @@ export default function TodoDisplay({ todo }: { todo: TodoType }) {
                     bs-data-theme="dark"
                     onClick={onClickHandler}
                 >
-                    {todo.name}
+                    <label aria-label={
+                        todo.isComplete
+                            ? "Completed todo named " + todo.name
+                            : "Incomplete todo named " + todo.name
+                    }>{todo.name}</label>
                 </button>
             )}
-            <TodoMenu todo={todo} isEditable={isEditable} setIsEditable={setIsEditable} />
+            <TodoMenu
+                todo={todo}
+                isEditable={isEditable}
+                setIsEditable={setIsEditable}
+            />
         </div>
     );
 }
