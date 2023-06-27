@@ -7,7 +7,7 @@ export default function TodoSection() {
         <TodoProvider>
             <section>
                 <div className="border-bottom d-flex flex-column align-items-center">
-                    <h1>Todos</h1>
+                    <h2>Todos</h2>
                         <AddTodo />
                 </div>
                 <TodoList />
