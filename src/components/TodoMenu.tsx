@@ -19,7 +19,7 @@ export default function TodoMenu({
                     isEditable={isEditable}
                     setIsEditable={setIsEditable}
                 />
-                <DeleteTodo id={todo.id} />
+                <DeleteTodo todo={todo} />
             </div>
             <div className="dropdown d-md-none" data-bs-theme="dark">
                 <button
@@ -43,7 +43,7 @@ export default function TodoMenu({
                         />
                     </li>
                     <li>
-                        <DeleteTodo id={todo.id} />
+                        <DeleteTodo todo={todo} />
                     </li>
                 </ul>
             </div>

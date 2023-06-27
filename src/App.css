@@ -3,6 +3,12 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.modal-content {
+    background-color: rgb(25,25,25);
+    border-width:4px;
+    border-color:rgb(100,100,100)
+}
+
 .dropdown-menu {
     --bs-dropdown-min-width:0;
     --bs-dropdown-padding-x:.5rem;
