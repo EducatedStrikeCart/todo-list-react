@@ -1,5 +1,6 @@
 ## Todo App
 This is a simple app demonstrating usage of React, particularly custom React hooks and React Context API.
+You can view this website at https://educatedstrikecart.github.io/todo-list-react/
 
 ## Installation
 1. Clone the repository
